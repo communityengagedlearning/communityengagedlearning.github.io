@@ -324,6 +324,7 @@ h3 {
   /*background: #a7ffeb repeat;*/
   background:  #00BFFF repeat;
   position: relative;
+  padding-bottom: 1800px;
 }
 
 #intro.section .container {
@@ -647,7 +648,8 @@ small {
     top: 64px;
   }
   section#intro {
-    margin-bottom: -64px;
+     min-height: 100vh;
+  padding-bottom: 1800px;
   }
   .card .role {
     position: relative;
@@ -663,7 +665,8 @@ small {
     margin: 30px 0 0;
   }
   #intro.section .container *:not(span) {
-    padding: 0;
+    min-height: auto;
+    padding-bottom: 1500px;
   }
   .card .card-content .card-title {
     font-size: 20px;
@@ -693,5 +696,6 @@ small {
   }
   #intro.section {
     background-position-x: 30%;
+    padding-bottom: 1500px;
   }
 }
