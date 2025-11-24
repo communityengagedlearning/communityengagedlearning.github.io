@@ -335,6 +335,26 @@ h3 {
   top: 0;
 }
 
+
+#faculty.section {
+  background: #00BFFF repeat;
+  position: relative;
+  padding-bottom: 0;
+}
+
+#insights {
+  margin-top: -400px;  /* Adjust this value as needed */
+}
+
+
+#faculty.section .container {
+  color: white;
+  font-weight: 200;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
 /* #intro.section .container *:not(span) {
   font-weight: 300;
   line-height: 150%;
